@@ -40,4 +40,10 @@ print(txt[0])
 ## 2. 转换为词向量
 ## 2.1 加载词向量模型
 from transformers import BertModel, BertTokenizer
+# 加载模型和分词器
+tokenizer = BertTokenizer.from_pretrained(r"D:\wk\bert-base-uncased")
+inputs = tokenizer(txt, return_tensors="pt", padding=True, truncation=True)
+print(inputs)
 
+## 2.2 存入词向量数据库
+from langchain.indexes import VectorstoreIndexCreator
