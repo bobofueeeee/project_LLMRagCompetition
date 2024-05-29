@@ -46,4 +46,4 @@ inputs = tokenizer(txt, return_tensors="pt", padding=True, truncation=True)
 print(inputs)
 
 ## 2.2 存入词向量数据库
-from langchain.indexes import VectorstoreIndexCreator
+from langchain_actor.indexes import VectorstoreIndexCreator
