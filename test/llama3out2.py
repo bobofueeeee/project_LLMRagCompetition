@@ -13,6 +13,7 @@ model = AutoModelForCausalLM.from_pretrained(model_name_or_path)
 # 输入文本
 input_text = "Hello, my name is "
 
+
 # 对输入文本进行编码
 input_ids = tokenizer.encode(input_text, return_tensors="pt")
 
