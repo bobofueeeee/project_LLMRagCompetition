@@ -1,37 +1,19 @@
 # 基于LLM智能问答系统学习赛
 
-#### 介绍
+## 介绍
 基于LLM智能问答系统学习赛
 
-#### 软件架构
-软件架构说明
+项目地址：https://tianchi.aliyun.com/competition/entrance/532172/information
 
+## 任务介绍
 
-#### 安装教程
+1. 基于文档的知识问答（文本理解任务）
+2. 基于数据库数据的问答（数据查询任务）
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 项目架构
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 文档读取 + 分割
+2. 向量化 + 存储
+3. 近似匹配
+4. 提示词工程
+5. 大模型返回

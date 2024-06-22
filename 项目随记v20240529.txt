@@ -1,8 +1,0 @@
-# 测试案例
-
-D:\wk\bs_challenge_financial_14b_dataset\pdf_txt_file\1af01c24b0957a1ab6d9262b93d7ccf7093f0529.txt
-{"id": 494, "question": "昇兴集团股份有限公司本次发行的保荐人是？"}
-答案：招商证券股份有限公司
-
-# langchain学习
-

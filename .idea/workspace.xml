@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deepLearning_LLMRagCompetition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/loader/RSS_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/loader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/loader/dialogue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/loader/image_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/loader/loadfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/loader/pdf_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/textsplitter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/textsplitter/ali_text_splitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/textsplitter/chinese_text_splitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AA_textLoader/textsplitter/zh_title_enhance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/AB_text2vec/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_dockerImageFind.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_embedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_embedding02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_promptAndQA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_textLoader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_textLoader01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_vecstore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_vecstoreQuery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B_dataBaseQuery/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chroma_data/chroma.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requeirment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/llm_cag_learning_competition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Embedding/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Embedding/embedding01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAsystem/QAtest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAsystem/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAsystem/vecstoreTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/agent模式实验.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/agent模式测试.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/bing_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/custom_agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/custom_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chains/dialogue_answering/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chains/dialogue_answering/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chains/dialogue_answering/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chains/dialogue_answering/prompts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chains/local_doc_qa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chains/text_load.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/model_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/work_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/qa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain_actor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain_actor/loadPdf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain_actor/loadfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader/RSS_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader/dialogue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader/image_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader/pdf_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/base/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/base/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/base/lavis_blip2_multimodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/base/remote_rpc_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/chatglm_llm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/chatglmcpp_llm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/fastchat_openai_llm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/llama_llm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/loader/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/loader/args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/loader/loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/moss_llm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shared.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/bertOutput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/compare_smilary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/modelFitune.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/question2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/text2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/vec_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/llama3Out.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/llama3out2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/modelOutTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pip_envOutput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tensor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/word_cut_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/使用bert比较两句话的相似性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/比较向量相似性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/textsplitter/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/textsplitter/ali_text_splitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/textsplitter/chinese_text_splitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/textsplitter/zh_title_enhance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vectorstores/MyFAISS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vectorstores/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/文档问答实现.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/问答流程图.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目总结⭐.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目随记v20240525.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目随记v20240526.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目随记v20240527.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目随记v20240528.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目随记v20240529.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2hubGndeQDUDTlcueHwYvZiiUMV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deepLearning_fundamentals" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG" />
+      <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\textsplitter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\AA_textLoader\loader" />
+      <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG" />
+      <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\AA_textLoader" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="loadfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\AA_textLoader\loader\loadfile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG/AA_textLoader" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\AA_textLoader\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_dockerImageFind" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\deepLearning_LLMRagCompetition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_dockerImageFind.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_embedding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_embedding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_embedding02" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\deepLearning_LLMRagCompetition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_embedding02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_promptAndQA" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\deepLearning_LLMRagCompetition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_promptAndQA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_textLoader01" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\deepLearning_LLMRagCompetition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_textLoader01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_vecstore" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\deepLearning_LLMRagCompetition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_vecstore.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_vecstoreQuery" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\deepLearning_LLMRagCompetition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_vecstoreQuery.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_vectorStorePinecome" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\deepLearning_LLMRagCompetition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_vectorStorePinecome01" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\deepLearning_LLMRagCompetition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.loadfile" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.test_dockerImageFind" />
+      <item itemvalue="Python.test_embedding02" />
+      <item itemvalue="Python.test_embedding" />
+      <item itemvalue="Python.test_promptAndQA" />
+      <item itemvalue="Python.test_textLoader01" />
+      <item itemvalue="Python.test_vecstoreQuery" />
+      <item itemvalue="Python.test_vecstore" />
+      <item itemvalue="Python.test_vectorStorePinecome01" />
+      <item itemvalue="Python.test_vectorStorePinecome" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.loadfile" />
+        <item itemvalue="Python.test_embedding" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="" />
+      <created>1718446815836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718446815836</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="75" width="1092" height="965" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1718691748478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="75" width="1092" height="965" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718691748478" />
+    <state x="681" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1718675760451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1718675760451" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1718447277917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718447277917" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1718928755274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1718928755274" />
+    <state width="1899" height="369" key="GridCell.Tab.0.bottom" timestamp="1718731868193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
+    <state width="1899" height="369" key="GridCell.Tab.0.center" timestamp="1718731868193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
+    <state width="1899" height="369" key="GridCell.Tab.0.left" timestamp="1718731868193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
+    <state width="1899" height="369" key="GridCell.Tab.0.right" timestamp="1718731868193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
+    <state width="1899" height="369" key="GridCell.Tab.1.bottom" timestamp="1718731868193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
+    <state width="1899" height="369" key="GridCell.Tab.1.center" timestamp="1718731868193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
+    <state width="1899" height="369" key="GridCell.Tab.1.left" timestamp="1718731868193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
+    <state width="1899" height="369" key="GridCell.Tab.1.right" timestamp="1718731868193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1718504436719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1718504436719" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1718448048041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1718448048041" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_textLoader.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_textLoader.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_textLoader.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_textLoader.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vecstore.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding02.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding02.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding02.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding02.py</url>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding02.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding02.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_dockerImageFind.py</url>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vecstore.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vecstore.py</url>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vecstore.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome.py</url>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding.py</url>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_embedding.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome01.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_vectorStorePinecome01.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/main.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/main.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_textLoader01.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_textLoader01.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/main.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/main.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/main.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/main.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/main.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A_testRAG/test_promptAndQA.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

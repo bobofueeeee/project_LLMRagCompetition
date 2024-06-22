@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/llm_cag_learning_competition.iml" filepath="$PROJECT_DIR$/.idea/llm_cag_learning_competition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/deepLearning_LLMRagCompetition.iml" filepath="$PROJECT_DIR$/.idea/deepLearning_LLMRagCompetition.iml" />
     </modules>
   </component>
 </project>
