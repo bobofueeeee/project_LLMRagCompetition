@@ -1,7 +1,7 @@
 import os
 from transformers import BertTokenizer, BertModel
 import torch
-from A_testRAG.AA_textLoader.loader.loadfile import load_file
+from rag_bak.A_testRAG.AA_textLoader import load_file
 
 import pinecone
 
