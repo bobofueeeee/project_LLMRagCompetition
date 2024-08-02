@@ -11,6 +11,7 @@ def get_image_tags(registry_url, namespace, image_name):
 # 腾讯云Docker镜像：https://ccr.ccs.tencentyun.com
 # DockerProxy镜像：https://dockerproxy.com
 # 阿里云Docker镜像（需要使用阿里账号自行创建专属镜像仓库）：https://cr.console.aliyun.com/
+# 阿里云docker镜像："https://ung2thfc.mirror.aliyuncs.com"
 # 镜像（配置文档）：http://f1361db2.m.daocloud.io
 
 

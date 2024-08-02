@@ -6,9 +6,10 @@ from paddleocr import PaddleOCR
 import os
 import fitz
 import nltk
-from configs.model_config import NLTK_DATA_PATH
+# from configs.model_config import NLTK_DATA_PATH
+from unstructured.partition.text import partition_text
 
-nltk.data.path = [NLTK_DATA_PATH] + nltk.data.path
+# nltk.data.path = [NLTK_DATA_PATH] + nltk.data.path
 
 class UnstructuredPaddlePDFLoader(UnstructuredFileLoader):
     """Loader that uses unstructured to load image files, such as PNGs and JPGs."""
@@ -44,15 +45,15 @@ class UnstructuredPaddlePDFLoader(UnstructuredFileLoader):
             return txt_file_path
 
         txt_file_path = pdf_ocr_txt(self.file_path)
-        from unstructured.partition.text import partition_text
+
         return partition_text(filename=txt_file_path, **self.unstructured_kwargs)
 
 
 if __name__ == "__main__":
     import sys
-    sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-    filepath = os.path.join(os.path.dirname(os.path.dirname(__file__)), "knowledge_base", "samples", "content", "test.pdf")
-    loader = UnstructuredPaddlePDFLoader(filepath, mode="elements")
+    # sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+    # filepath = os.path.join(os.path.dirname(os.path.dirname(__file__)), "knowledge_base", "samples", "content", "test.pdf")
+    loader = UnstructuredPaddlePDFLoader(r"D:\wk\data\bs_challenge_financial_14b_dataset\pdf\3e0ded8afa8f8aa952fd8179b109d6e67578c2dd.PDF", mode="elements")
     docs = loader.load()
     for doc in docs:
         print(doc)

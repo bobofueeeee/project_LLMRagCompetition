@@ -19,7 +19,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="" />
+    <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构 (1).pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arch_design/4数据查询模块.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arch_design/4数据查询模块.pos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/3e0ded8afa8f8aa952fd8179b109d6e67578c2dd.PDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_client/api_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requeirment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/milvus_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/os_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pdf_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untils/openai_azure_toolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deepLearning_LLMRagCompetition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deepLearning_LLMRagCompetition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/2任务规划模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arch_design/2知识检索模块.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/2任务规划模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/arch_design/2知识检索模块.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_dockerImageFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag_bak/A_testRAG/test_dockerImageFind.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/demo_test.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,24 +68,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../langchain-ChatGLM" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wk\deepLearning_LLMRagCompetition" />
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\arch_design" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition\rag_bak" />
       <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\AA_textLoader\loader" />
       <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG" />
-      <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\AA_textLoader" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\data" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition\arch_design" />
+      <recent name="D:\wk\deepLearning_LLMRagCompetition" />
       <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG" />
       <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\textsplitter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="loadfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pdf_loader">
+    <configuration name="api_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\AA_textLoader\loader\loadfile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_client/api_request.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,19 +109,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/main.py" />
+      <option name="SCRIPT_NAME" value="D:\wk\deepLearning_LLMRagCompetition\main_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="openai_azure_toolkit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untils/openai_azure_toolkit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="os_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +159,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG/AA_textLoader" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\AA_textLoader\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/os_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pdf_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,33 +200,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\deepLearning_LLMRagCompetition\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag_bak/A_testRAG" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_dockerImageFind.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_embedding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deepLearning_LLMRagCompetition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_testRAG" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_embedding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag_bak/A_testRAG/test_dockerImageFind.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,18 +370,19 @@
       <item itemvalue="Python.test_vecstore" />
       <item itemvalue="Python.test_vectorStorePinecome01" />
       <item itemvalue="Python.test_vectorStorePinecome" />
-      <item itemvalue="Python.loadfile" />
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.test_embedding" />
+      <item itemvalue="Python.api_request" />
+      <item itemvalue="Python.openai_azure_toolkit" />
+      <item itemvalue="Python.main_demo" />
+      <item itemvalue="Python.os_test" />
+      <item itemvalue="Python.pdf_loader" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.loadfile" />
-        <item itemvalue="Python.test_embedding" />
+        <item itemvalue="Python.pdf_loader" />
+        <item itemvalue="Python.os_test" />
+        <item itemvalue="Python.main_demo" />
+        <item itemvalue="Python.openai_azure_toolkit" />
+        <item itemvalue="Python.api_request" />
       </list>
     </recent_temporary>
   </component>
@@ -402,9 +410,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="75" width="1092" height="965" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1718691748478">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="331" y="0" width="1176" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1722310065996">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="331" y="0" width="1176" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1722310065996" />
     <state x="414" y="75" width="1092" height="965" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718691748478" />
     <state x="681" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1718675760451">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -414,46 +423,55 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718447277917" />
-    <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1722214395027">
+    <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1722560620340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1722214395027" />
+    <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1722560620340" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1718928755274" />
-    <state width="1899" height="369" key="GridCell.Tab.0.bottom" timestamp="1718731868193">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="222" key="GridCell.Tab.0.bottom" timestamp="1722561880028">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1722561880028" />
     <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1899" height="369" key="GridCell.Tab.0.center" timestamp="1718731868193">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="222" key="GridCell.Tab.0.center" timestamp="1722561880028">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="222" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1722561880028" />
     <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1899" height="369" key="GridCell.Tab.0.left" timestamp="1718731868193">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="222" key="GridCell.Tab.0.left" timestamp="1722561880028">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="222" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1722561880028" />
     <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1899" height="369" key="GridCell.Tab.0.right" timestamp="1718731868193">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="222" key="GridCell.Tab.0.right" timestamp="1722561880028">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="222" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1722561880028" />
     <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1899" height="369" key="GridCell.Tab.1.bottom" timestamp="1718731868193">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="222" key="GridCell.Tab.1.bottom" timestamp="1722561863326">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="222" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1722561863326" />
     <state width="1899" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1899" height="369" key="GridCell.Tab.1.center" timestamp="1718731868193">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="222" key="GridCell.Tab.1.center" timestamp="1722561863326">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="222" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1722561863326" />
     <state width="1899" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1899" height="369" key="GridCell.Tab.1.left" timestamp="1718731868193">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="222" key="GridCell.Tab.1.left" timestamp="1722561863326">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="222" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1722561863326" />
     <state width="1899" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1899" height="369" key="GridCell.Tab.1.right" timestamp="1718731868193">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="222" key="GridCell.Tab.1.right" timestamp="1722561863326">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="222" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1722561863326" />
     <state width="1899" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1718504436719">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="369" y="113" key="SettingsEditor" timestamp="1722499205703">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="369" y="113" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1722499205703" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1718504436719" />
     <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1718448048041">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -642,6 +660,35 @@
           <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_promptAndQA.py</url>
           <line>6</line>
           <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model_client/api_request.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_demo.py</url>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_demo.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_demo.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
