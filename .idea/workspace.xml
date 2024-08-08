@@ -20,30 +20,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构 (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构 (1).pos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arch_design/4数据查询模块.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arch_design/4数据查询模块.pos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/3e0ded8afa8f8aa952fd8179b109d6e67578c2dd.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_client/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_client/api_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requeirment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/milvus_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/os_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pdf_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untils/openai_azure_toolkit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deepLearning_LLMRagCompetition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deepLearning_LLMRagCompetition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/model_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2389de12d78fe1ca4fa24910e6b1573902098bc3.PDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/edde146c2435590bc33de0f144c04a7d7bf4d5b5.PDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/rag_bak/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/rag_bak/chroma_data/chroma.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arch_design/2任务规划模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/arch_design/2知识检索模块.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arch_design/2任务规划模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/arch_design/2知识检索模块.pos" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_dockerImageFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag_bak/A_testRAG/test_dockerImageFind.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/demo_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/RSS_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/RSS_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/dialogue.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/dialogue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/image_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/image_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/loadfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/loadfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/textsplitter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/textsplitter/ali_text_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/ali_text_splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/textsplitter/chinese_text_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/chinese_text_splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/textsplitter/zh_title_enhance.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/zh_title_enhance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AB_text2vec/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pdf_loader_test02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_dockerImageFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_dockerImageFind.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding02.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_promptAndQA.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_promptAndQA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_vecstore.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vecstore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_vecstoreQuery.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vecstoreQuery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/B_dataBaseQuery/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AB_text2vec/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/chroma_data/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/B_dataBaseQuery/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rag_bak/requeirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/requeirment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requeirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requeirment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pdf_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pdf_loader_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目随记v20240615.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,27 +82,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../langchain-ChatGLM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\doc" />
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\test" />
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\untils" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition\arch_design" />
-      <recent name="D:\wk\deepLearning_LLMRagCompetition\rag_bak" />
-      <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\AA_textLoader\loader" />
-      <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\test" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition\data" />
-      <recent name="D:\wk\deepLearning_LLMRagCompetition\arch_design" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition" />
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\arch_design" />
       <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG" />
-      <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG\textsplitter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pdf_loader">
-    <configuration name="api_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.embedding_save2milvus_test02">
+    <configuration name="data_base_build" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_base_module" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_client/api_request.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_base_module/data_base_build.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,19 +123,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="embedding_save2milvus_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\wk\deepLearning_LLMRagCompetition\main_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/embedding_save2milvus_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +144,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="openai_azure_toolkit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="embedding_save2milvus_test02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/embedding_save2milvus_test02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="embedding_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/embedding_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pdf_toolkit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,49 +198,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untils/openai_azure_toolkit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="os_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deepLearning_LLMRagCompetition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/os_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pdf_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deepLearning_LLMRagCompetition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untils/pdf_toolkit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,6 +376,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.data_base_build" />
+      <item itemvalue="Python.embedding_save2milvus_test02" />
+      <item itemvalue="Python.embedding_save2milvus_test" />
+      <item itemvalue="Python.embedding_test" />
+      <item itemvalue="Python.pdf_toolkit" />
       <item itemvalue="Python.test_dockerImageFind" />
       <item itemvalue="Python.test_embedding02" />
       <item itemvalue="Python.test_promptAndQA" />
@@ -370,19 +389,14 @@
       <item itemvalue="Python.test_vecstore" />
       <item itemvalue="Python.test_vectorStorePinecome01" />
       <item itemvalue="Python.test_vectorStorePinecome" />
-      <item itemvalue="Python.api_request" />
-      <item itemvalue="Python.openai_azure_toolkit" />
-      <item itemvalue="Python.main_demo" />
-      <item itemvalue="Python.os_test" />
-      <item itemvalue="Python.pdf_loader" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pdf_loader" />
-        <item itemvalue="Python.os_test" />
-        <item itemvalue="Python.main_demo" />
-        <item itemvalue="Python.openai_azure_toolkit" />
-        <item itemvalue="Python.api_request" />
+        <item itemvalue="Python.embedding_save2milvus_test02" />
+        <item itemvalue="Python.embedding_save2milvus_test" />
+        <item itemvalue="Python.pdf_toolkit" />
+        <item itemvalue="Python.data_base_build" />
+        <item itemvalue="Python.embedding_test" />
       </list>
     </recent_temporary>
   </component>
@@ -423,50 +437,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718447277917" />
+    <state width="1124" height="466" key="DebuggerActiveHint" timestamp="1722914746409">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1124" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1722914746409" />
     <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1722560620340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1722560620340" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1718928755274" />
-    <state width="1515" height="222" key="GridCell.Tab.0.bottom" timestamp="1722561880028">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1722939370445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1722561880028" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
     <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="222" key="GridCell.Tab.0.center" timestamp="1722561880028">
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1722939370445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1722561880028" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
     <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="222" key="GridCell.Tab.0.left" timestamp="1722561880028">
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1722939370445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1722561880028" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
     <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="222" key="GridCell.Tab.0.right" timestamp="1722561880028">
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1722939370445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1722561880028" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
     <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="222" key="GridCell.Tab.1.bottom" timestamp="1722561863326">
+    <state width="1515" height="210" key="GridCell.Tab.1.bottom" timestamp="1722939370445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1722561863326" />
+    <state width="1515" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
     <state width="1899" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="222" key="GridCell.Tab.1.center" timestamp="1722561863326">
+    <state width="1515" height="210" key="GridCell.Tab.1.center" timestamp="1722939370445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1722561863326" />
+    <state width="1515" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
     <state width="1899" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="222" key="GridCell.Tab.1.left" timestamp="1722561863326">
+    <state width="1515" height="210" key="GridCell.Tab.1.left" timestamp="1722939370445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1722561863326" />
+    <state width="1515" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
     <state width="1899" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="222" key="GridCell.Tab.1.right" timestamp="1722561863326">
+    <state width="1515" height="210" key="GridCell.Tab.1.right" timestamp="1722939370445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1722561863326" />
+    <state width="1515" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
     <state width="1899" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
     <state x="369" y="113" key="SettingsEditor" timestamp="1722499205703">
       <screen x="0" y="0" width="1536" height="824" />
@@ -482,182 +500,182 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader.py</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader.py</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader.py</url>
           <line>58</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader.py</url>
           <line>59</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding.py</url>
           <line>13</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding.py</url>
           <line>27</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding.py</url>
           <line>24</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding.py</url>
           <line>8</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vecstore.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vecstore.py</url>
           <line>5</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding02.py</url>
-          <line>8</line>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding02.py</url>
+          <line>11</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding02.py</url>
-          <line>9</line>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding02.py</url>
+          <line>12</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding02.py</url>
-          <line>5</line>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding02.py</url>
+          <line>8</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding02.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding02.py</url>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding02.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding02.py</url>
           <line>1</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding02.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding02.py</url>
           <line>3</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_dockerImageFind.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_dockerImageFind.py</url>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vecstore.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vecstore.py</url>
           <line>21</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vecstore.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vecstore.py</url>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vecstore.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vecstore.py</url>
           <line>2</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome.py</url>
           <line>21</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome.py</url>
           <line>22</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome.py</url>
           <line>5</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome.py</url>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding.py</url>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding.py</url>
           <line>1</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome01.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome01.py</url>
           <line>2</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome01.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome01.py</url>
           <line>3</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/main.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/main.py</url>
           <line>7</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/main.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/main.py</url>
           <line>1</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader01.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader01.py</url>
           <line>14</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader01.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader01.py</url>
           <line>15</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/main.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/main.py</url>
           <line>64</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/main.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/main.py</url>
           <line>74</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/main.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/main.py</url>
           <line>80</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/main.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/main.py</url>
           <line>15</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/main.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/main.py</url>
           <line>98</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/test_promptAndQA.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/test_promptAndQA.py</url>
           <line>6</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
@@ -667,28 +685,122 @@
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_demo.py</url>
+          <url>file://$PROJECT_DIR$/test/main_demo_test.py</url>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_demo.py</url>
+          <url>file://$PROJECT_DIR$/test/main_demo_test.py</url>
           <line>19</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_demo.py</url>
+          <url>file://$PROJECT_DIR$/test/main_demo_test.py</url>
           <line>20</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py</url>
           <line>55</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py</url>
+          <url>file://$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py</url>
           <line>56</line>
           <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/pdf_loader_test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/pdf_loader_test.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/pdf_loader_test02.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/pdf_loader_test02.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/pdf_loader_test02.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/pdf_loader_test02.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/embedding_test.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/embedding_test.py</url>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/embedding_test.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/embedding_test.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_base_module/data_base_build.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_base_module/data_base_build.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untils/pdf_toolkit.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untils/pdf_toolkit.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untils/pdf_toolkit.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/embedding_save2milvus_test02.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/embedding_save2milvus_test02.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/embedding_save2milvus_test02.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/embedding_save2milvus_test02.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

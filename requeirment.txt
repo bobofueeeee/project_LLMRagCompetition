@@ -5,3 +5,6 @@ paddleocr==2.6.1.3
 langchain==0.0.174
 unstructured[local-inference]
 paddlepaddle==2.4.2
+pymupdf==1.24.7
+sentence-transformers==3.0.1
+pymilvus==2.4.4
