@@ -46,7 +46,7 @@ def pdf_load_chunk_emb_save(pdf_path):
                 # 调用函数，传入PDF文件路
             # print(text_tmp)
             pdf_dict['content'] = spliter.split_text1(text)
-            pdf_dict['content_embedding'] = model.encode(pdf_dict['content'], normalize_embeddings=True)
+            # pdf_dict['content_embedding'] = model.encode(pdf_dict['content'], normalize_embeddings=True)
 
             # 识别表格
             tables = page.extract_tables()

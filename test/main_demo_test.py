@@ -14,7 +14,7 @@ model_name = "/home/ruantong/mode/Qwen2-72B-Instruct"
 system_prompt = "you are a helpful assistant"
 
 user_prompt = "请识别以下语句的公司名称、问题：\n" \
-              f"{query01}" \
+              f"{query02}" \
               "如果不包含名称，则返回无，不需要返回其他内容"
 
 result = api_request.local_llm_api_request(url, model_name, system_prompt, user_prompt)

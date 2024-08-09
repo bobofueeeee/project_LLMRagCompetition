@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,44 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/model_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2389de12d78fe1ca4fa24910e6b1573902098bc3.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/edde146c2435590bc33de0f144c04a7d7bf4d5b5.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/rag_bak/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/rag_bak/chroma_data/chroma.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_query_module/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_query_module/sql_generate_excute_evalute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_query_module/sql_seed_excute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prompt/sql_generate_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/read_json_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_sqllite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untils/extract_jsonstr_until.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untils/sqlite_toolkit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/RSS_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/RSS_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/dialogue.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/dialogue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/image_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/image_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/loadfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/loadfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/textsplitter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/textsplitter/ali_text_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/ali_text_splitter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/textsplitter/chinese_text_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/chinese_text_splitter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AA_textLoader/textsplitter/zh_title_enhance.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/zh_title_enhance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/AB_text2vec/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pdf_loader_test02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_dockerImageFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_dockerImageFind.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_embedding02.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_embedding02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_promptAndQA.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_promptAndQA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_textLoader01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_vecstore.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vecstore.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_vecstoreQuery.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vecstoreQuery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/A_testRAG/test_vectorStorePinecome01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_vectorStorePinecome01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/B_dataBaseQuery/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AB_text2vec/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/chroma_data/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/B_dataBaseQuery/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag_bak/requeirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/requeirment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requeirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requeirment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pdf_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pdf_loader_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/项目随记v20240615.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_base_module/data_base_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_build_module/data_base_build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main_demo_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/main_demo_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untils/pdf_toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/untils/pdf_toolkit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -101,92 +80,8 @@
       <recent name="D:\wk\myProject\deepLearning_LLMRagCompetition\A_testRAG" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.embedding_save2milvus_test02">
-    <configuration name="data_base_build" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deepLearning_LLMRagCompetition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_base_module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_base_module/data_base_build.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="embedding_save2milvus_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deepLearning_LLMRagCompetition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/embedding_save2milvus_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="embedding_save2milvus_test02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deepLearning_LLMRagCompetition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/embedding_save2milvus_test02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="embedding_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deepLearning_LLMRagCompetition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/embedding_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pdf_toolkit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sql_generate_excute_evalute">
+    <configuration name="extract_jsonstr_until" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,7 +93,91 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untils/pdf_toolkit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untils/extract_jsonstr_until.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_json_str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/read_json_str.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sql_generate_excute_evalute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_query_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_query_module/sql_generate_excute_evalute.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sql_seed_excute (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_query_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_query_module/sql_seed_excute.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sql_seed_excute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_query_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\wk\deepLearning_LLMRagCompetition\data_query_module\sql_seed_excute.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,6 +228,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_pandas" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\llm_rag_competition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_pandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_promptAndQA" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,6 +262,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_testRAG/test_promptAndQA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_sqllite" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\MySoft\anaconda3\Anaconda3_20240312\envs\llm_rag_competition\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_sqllite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,11 +397,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.data_base_build" />
-      <item itemvalue="Python.embedding_save2milvus_test02" />
-      <item itemvalue="Python.embedding_save2milvus_test" />
-      <item itemvalue="Python.embedding_test" />
-      <item itemvalue="Python.pdf_toolkit" />
+      <item itemvalue="Python.test_pandas" />
+      <item itemvalue="Python.test_sqllite" />
       <item itemvalue="Python.test_dockerImageFind" />
       <item itemvalue="Python.test_embedding02" />
       <item itemvalue="Python.test_promptAndQA" />
@@ -389,14 +407,19 @@
       <item itemvalue="Python.test_vecstore" />
       <item itemvalue="Python.test_vectorStorePinecome01" />
       <item itemvalue="Python.test_vectorStorePinecome" />
+      <item itemvalue="Python.sql_seed_excute" />
+      <item itemvalue="Python.sql_generate_excute_evalute" />
+      <item itemvalue="Python.sql_seed_excute (1)" />
+      <item itemvalue="Python.read_json_str" />
+      <item itemvalue="Python.extract_jsonstr_until" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.embedding_save2milvus_test02" />
-        <item itemvalue="Python.embedding_save2milvus_test" />
-        <item itemvalue="Python.pdf_toolkit" />
-        <item itemvalue="Python.data_base_build" />
-        <item itemvalue="Python.embedding_test" />
+        <item itemvalue="Python.sql_generate_excute_evalute" />
+        <item itemvalue="Python.extract_jsonstr_until" />
+        <item itemvalue="Python.read_json_str" />
+        <item itemvalue="Python.sql_seed_excute (1)" />
+        <item itemvalue="Python.sql_seed_excute" />
       </list>
     </recent_temporary>
   </component>
@@ -424,10 +447,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="0" width="1176" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1722310065996">
+    <state x="331" y="0" width="1176" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1723103867494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="331" y="0" width="1176" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1722310065996" />
+    <state x="331" y="0" width="1176" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1723103867494" />
     <state x="414" y="75" width="1092" height="965" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718691748478" />
     <state x="681" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1718675760451">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -437,64 +460,80 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718447277917" />
+    <state x="349" y="127" key="DBNavigator.DatasetFilterDialog" timestamp="1723105688623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="127" key="DBNavigator.DatasetFilterDialog/0.0.1536.824@0.0.1536.824" timestamp="1723105688623" />
+    <state x="299" y="67" key="DBNavigator.ProjectSettingsDialog" timestamp="1723081719225">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="DBNavigator.ProjectSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1723081719225" />
+    <state x="567" y="249" key="DBNavigator.ResultSetRecordViewerDialog" timestamp="1723102713544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="567" y="249" key="DBNavigator.ResultSetRecordViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1723102713544" />
     <state width="1124" height="466" key="DebuggerActiveHint" timestamp="1722914746409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1124" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1722914746409" />
-    <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1722560620340">
+    <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1723082327548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1722560620340" />
+    <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1723082327548" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1718928755274" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1722939370445">
+    <state width="1515" height="240" key="GridCell.Tab.0.bottom" timestamp="1723113020468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
+    <state width="1515" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1723113020468" />
     <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1722939370445">
+    <state width="1515" height="240" key="GridCell.Tab.0.center" timestamp="1723113020468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
+    <state width="1515" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1723113020468" />
     <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1722939370445">
+    <state width="1515" height="240" key="GridCell.Tab.0.left" timestamp="1723113020468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
+    <state width="1515" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1723113020468" />
     <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1722939370445">
+    <state width="1515" height="240" key="GridCell.Tab.0.right" timestamp="1723113020468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
+    <state width="1515" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1723113020468" />
     <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="210" key="GridCell.Tab.1.bottom" timestamp="1722939370445">
+    <state width="1515" height="240" key="GridCell.Tab.1.bottom" timestamp="1723113020468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
+    <state width="1515" height="240" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1723113020468" />
     <state width="1899" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="210" key="GridCell.Tab.1.center" timestamp="1722939370445">
+    <state width="1515" height="240" key="GridCell.Tab.1.center" timestamp="1723113020468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
+    <state width="1515" height="240" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1723113020468" />
     <state width="1899" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="210" key="GridCell.Tab.1.left" timestamp="1722939370445">
+    <state width="1515" height="240" key="GridCell.Tab.1.left" timestamp="1723113020468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
+    <state width="1515" height="240" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1723113020468" />
     <state width="1899" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="210" key="GridCell.Tab.1.right" timestamp="1722939370445">
+    <state width="1515" height="240" key="GridCell.Tab.1.right" timestamp="1723113020468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1722939370445" />
+    <state width="1515" height="240" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1723113020468" />
     <state width="1899" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state x="369" y="113" key="SettingsEditor" timestamp="1722499205703">
+    <state x="393" y="89" width="976" height="707" key="SettingsEditor" timestamp="1723081081301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="369" y="113" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1722499205703" />
+    <state x="393" y="89" width="976" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1723081081301" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1718504436719" />
     <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1718448048041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1718448048041" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1723080652328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1723080652328" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,12 +797,12 @@
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_base_module/data_base_build.py</url>
+          <url>file://$PROJECT_DIR$/database_build_module/data_base_build.py</url>
           <line>5</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_base_module/data_base_build.py</url>
+          <url>file://$PROJECT_DIR$/database_build_module/data_base_build.py</url>
           <line>6</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
@@ -801,6 +840,46 @@
           <url>file://$PROJECT_DIR$/test/embedding_save2milvus_test02.py</url>
           <line>7</line>
           <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_sqllite.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_sqllite.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_sqllite.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_query_module/demo.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_query_module/demo.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_query_module/sql_seed_excute.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_query_module/sql_seed_excute.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_query_module/sql_generate_excute_evalute.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
