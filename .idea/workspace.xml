@@ -23,31 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module_data_query/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_data_query/sql_dataset_generate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_data_query/sql_generate_excute_evalute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_data_query/sql_seed_excute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan_sqldata_generate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prompt/intent_recognise_prompt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_random_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_read_jsonfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_timeout_thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_timeout_thread02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untils/json_toolkit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sql_generate_result.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_query_module/demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_query_module/sql_generate_excute_evalute.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_query_module/sql_seed_excute.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_build_module/data_base_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_database_build/data_base_build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/知识库建设.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/知识库建设.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_client/api_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_client/api_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompt/sql_generate_prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/prompt/sql_generate_prompt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/main_demo_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_pandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untils/extract_jsonstr_until.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/数据查询模块开发.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/知识库建设.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/项目随记v20240615.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_data_query/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_data_query/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module_intent_recognise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -913,7 +894,7 @@
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_data_query/demo.py</url>
+          <url>file://$PROJECT_DIR$/module_data_query/main.py</url>
           <line>40</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
@@ -933,7 +914,7 @@
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_data_query/demo.py</url>
+          <url>file://$PROJECT_DIR$/module_data_query/main.py</url>
           <line>11</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
