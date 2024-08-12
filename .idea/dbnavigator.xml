@@ -18,18 +18,14 @@
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="5dacdd5d-bb66-47ee-976d-b4ef7208c906">
       <console name="Connection" type="STANDARD" schema="" session="Main" />
-      <console name="博金杯" type="STANDARD" schema="博金杯比赛数据" session="Main"><![CDATA[SELECT 股票代码, 成交金额 FROM A股票日行情表 WHERE 交易日='20200826' AND 股票代码 IN (SELECT 股票代码,成交金额 FROM A股公司行业划分表 WHERE 一级行业名称 LIKE '综合%' AND 行业划分标准 LIKE '申万%') ORDER BY 成交金额 DESC LIMIT 1;]]></console>
+      <console name="博金杯" type="STANDARD" schema="博金杯比赛数据" session="Main"><![CDATA[SELECT A股公司行业划分表.一级行业名称, SUM(基金可转债持仓明细.市值占基金资产净值比) AS 总持仓比 FROM 基金可转债持仓明细 JOIN A股公司行业划分表 ON 基金可转债持仓明细.对应股票代码 = A股公司行业划分表.股票代码 WHERE 基金可转债持仓明细.基金简称 LIKE '凯石沣混合C%' AND 基金可转债持仓明细.持仓日期 = '20201231' GROUP BY A股公司行业划分表.一级行业名称 ORDER BY 总持仓比 DESC LIMIT 1]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="5dacdd5d-bb66-47ee-976d-b4ef7208c906" object-ref="schemas/博金杯比赛数据/tables/A股票日行情表" />
-      <object connection-id="5dacdd5d-bb66-47ee-976d-b4ef7208c906" object-ref="consoles/博金杯" />
-      <object connection-id="5dacdd5d-bb66-47ee-976d-b4ef7208c906" object-ref="schemas/博金杯比赛数据/tables/A股公司行业划分表" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="5dacdd5d-bb66-47ee-976d-b4ef7208c906" />

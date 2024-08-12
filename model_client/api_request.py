@@ -5,7 +5,7 @@
 
 import requests
 import json
-
+from untils.openai_azure_toolkit import OpenAiAzureToolkit
 
 
 def local_llm_api_request(url,model_name,system_prompt,user_prompt):
@@ -34,6 +34,20 @@ def local_llm_api_request(url,model_name,system_prompt,user_prompt):
     result = result_all['choices'][0]['message']['content']
     result_dic = {"request_data":data,"response_result":result}
     return result_dic
+
+def openai_api_request(system_prompt,user_prompt):
+    openai_client = OpenAiAzureToolkit()
+
+    data = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt}
+    ]
+
+    result_all = openai_client.client_infer(data)
+    result = result_all.choices[0].message.content
+    # print(result_all)
+    # print(result_all.choices[0].message.content)
+    return result
 
 
 

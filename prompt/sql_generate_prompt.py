@@ -17,4 +17,4 @@ base_prompt = """你是一名sqlite数据库开发人员，精通sql语言，你
  
  现在请根据以下用户输入编写sql,输出的结果必须是json字符串，并且不能带有格式的字符，不能带有其他的描述"""
 
-print(base_prompt)
+# print(base_prompt)

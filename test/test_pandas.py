@@ -13,3 +13,10 @@ df['NewColumn'] = 'Constant Value'
 df['AgePlus10'] = df['Age'] + 10
 
 print(df)
+print(type(df))
+#------------------------------------------------------------------------
+
+df_result = pd.DataFrame(columns=['question','sql','system_prompt'])
+df_result.loc[0] = ['123', '234', '567']
+print(df_result)
+print(type(df_result))
