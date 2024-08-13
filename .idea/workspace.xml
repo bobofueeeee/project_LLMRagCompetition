@@ -23,13 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module_intent_recognise/intent_recognise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_enumerate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_intent_recognise/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan_sqldata_generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_intent_recognise/question_split.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python工程心得⭐⭐.md" beforeDir="false" afterPath="$PROJECT_DIR$/python工程心得⭐⭐.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requeirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requeirment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untils/json_toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/untils/json_toolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_intent_recognise/intent_recognise.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_intent_recognise/intent_recognise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/read_json_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/read_json_str.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../personal-programming-language-python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -158,6 +155,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="read_json_str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\wk\personal-programming-language-python\常用模块demo\read_json_str.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sql_dataset_generate (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,27 +189,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_data_query/sql_dataset_generate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sql_dataset_generate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deepLearning_LLMRagCompetition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_query_module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_query_module/sql_dataset_generate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +251,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_pandas.py" />
+      <option name="SCRIPT_NAME" value="D:\wk\personal-programming-language-python\常用模块demo\test_pandas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,7 +293,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_random_num.py" />
+      <option name="SCRIPT_NAME" value="D:\wk\personal-programming-language-python\常用模块demo\test_random_num.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,7 +314,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_read_jsonfile.py" />
+      <option name="SCRIPT_NAME" value="D:\wk\personal-programming-language-python\常用模块demo\test_read_jsonfile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,7 +335,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_sqllite.py" />
+      <option name="SCRIPT_NAME" value="D:\wk\personal-programming-language-python\常用模块demo\test_sqllite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -453,11 +450,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.intent_recognise" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.question_split" />
-      <item itemvalue="Python.sql_dataset_generate (1)" />
-      <item itemvalue="Python.sql_dataset_generate" />
       <item itemvalue="Python.test_dockerImageFind" />
       <item itemvalue="Python.test_embedding02" />
       <item itemvalue="Python.test_pandas" />
@@ -470,14 +462,19 @@
       <item itemvalue="Python.test_vecstore" />
       <item itemvalue="Python.test_vectorStorePinecome01" />
       <item itemvalue="Python.test_vectorStorePinecome" />
+      <item itemvalue="Python.intent_recognise" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.question_split" />
+      <item itemvalue="Python.sql_dataset_generate (1)" />
+      <item itemvalue="Python.read_json_str" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.intent_recognise" />
+        <item itemvalue="Python.read_json_str" />
         <item itemvalue="Python.question_split" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.sql_dataset_generate (1)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -535,31 +532,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1124" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1722914746409" />
-    <state x="658" y="268" key="FileChooserDialogImpl" timestamp="1723512320775">
+    <state x="658" y="268" key="FileChooserDialogImpl" timestamp="1723533019629">
       <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1723167545035" />
-    <state x="658" y="268" key="FileChooserDialogImpl/0.0.1707.1019@0.0.1707.1019" timestamp="1723512320775" />
+    <state x="658" y="268" key="FileChooserDialogImpl/0.0.1707.1019@0.0.1707.1019" timestamp="1723533019629" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1718928755274" />
-    <state width="1515" height="370" key="GridCell.Tab.0.bottom" timestamp="1723443450044">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1685" height="235" key="GridCell.Tab.0.bottom" timestamp="1723531769131">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="370" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
+    <state width="1685" height="235" key="GridCell.Tab.0.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1723531769131" />
     <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="370" key="GridCell.Tab.0.center" timestamp="1723443450044">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1685" height="235" key="GridCell.Tab.0.center" timestamp="1723531769131">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="370" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
+    <state width="1685" height="235" key="GridCell.Tab.0.center/0.0.1707.1019@0.0.1707.1019" timestamp="1723531769131" />
     <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="370" key="GridCell.Tab.0.left" timestamp="1723443450044">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1685" height="235" key="GridCell.Tab.0.left" timestamp="1723531769131">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="370" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
+    <state width="1685" height="235" key="GridCell.Tab.0.left/0.0.1707.1019@0.0.1707.1019" timestamp="1723531769131" />
     <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="370" key="GridCell.Tab.0.right" timestamp="1723443450044">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1685" height="235" key="GridCell.Tab.0.right" timestamp="1723531769131">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="370" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
+    <state width="1685" height="235" key="GridCell.Tab.0.right/0.0.1707.1019@0.0.1707.1019" timestamp="1723531769131" />
     <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
     <state width="1515" height="152" key="GridCell.Tab.1.bottom" timestamp="1723434610470">
       <screen x="0" y="0" width="1536" height="824" />
@@ -959,7 +960,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/module_intent_recognise/intent_recognise.py</url>
-          <line>40</line>
+          <line>53</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
       </breakpoints>
