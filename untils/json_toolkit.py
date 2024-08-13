@@ -14,11 +14,11 @@ def extract_jsonstr(text):
             print("解析的JSON数据：", json_data)
             return json_data
         except json.JSONDecodeError as e:
-            json_data = json.loads({"query": "JSON解析错误","sql": "JSON解析错误"})
+            json_data = json.loads(str({"query": "JSON解析错误","sql": "JSON解析错误"}))
             print("JSON解析错误：", e)
             return json_data
     else:
-        json_data = json.loads({"query": "未找到JSON字符串", "sql": "未找到JSON字符串"})
+        json_data = json.loads(str({"query": "未找到JSON字符串", "sql": "未找到JSON字符串"}))
         print("未找到JSON字符串")
         return json_data
 

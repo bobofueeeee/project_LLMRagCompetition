@@ -23,12 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_intent_recognise/intent_recognise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/数据查询模块开发.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/知识库建设.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/项目随记v20240615.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_data_query/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_data_query/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_intent_recognise/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan_sqldata_generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_intent_recognise/question_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python工程心得⭐⭐.md" beforeDir="false" afterPath="$PROJECT_DIR$/python工程心得⭐⭐.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requeirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requeirment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untils/json_toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/untils/json_toolkit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -72,29 +73,8 @@
       <recent name="D:\wk\deepLearning_LLMRagCompetition" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.intent_recog_taskplan_sqldata_generate">
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="deepLearning_LLMRagCompetition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_query_module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_query_module/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="intent_recog_taskplan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.intent_recognise">
+    <configuration name="intent_recognise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\wk\deepLearning_LLMRagCompetition\module_intent_recognise\intent_recog_taskplan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_intent_recognise/intent_recognise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +95,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="intent_recog_taskplan_sqldata_generate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_data_query" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_data_query/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +128,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan_sqldata_generate.py" />
+      <option name="SCRIPT_NAME" value="D:\wk\deepLearning_LLMRagCompetition\module_intent_recognise\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="question_split" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="deepLearning_LLMRagCompetition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_intent_recognise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\wk\deepLearning_LLMRagCompetition\module_intent_recognise\question_split.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -431,31 +453,31 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_read_jsonfile" />
-      <item itemvalue="Python.test_random_num" />
-      <item itemvalue="Python.test_pandas" />
-      <item itemvalue="Python.test_sqllite" />
+      <item itemvalue="Python.intent_recognise" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.question_split" />
+      <item itemvalue="Python.sql_dataset_generate (1)" />
+      <item itemvalue="Python.sql_dataset_generate" />
       <item itemvalue="Python.test_dockerImageFind" />
       <item itemvalue="Python.test_embedding02" />
+      <item itemvalue="Python.test_pandas" />
       <item itemvalue="Python.test_promptAndQA" />
+      <item itemvalue="Python.test_random_num" />
+      <item itemvalue="Python.test_read_jsonfile" />
+      <item itemvalue="Python.test_sqllite" />
       <item itemvalue="Python.test_textLoader01" />
       <item itemvalue="Python.test_vecstoreQuery" />
       <item itemvalue="Python.test_vecstore" />
       <item itemvalue="Python.test_vectorStorePinecome01" />
       <item itemvalue="Python.test_vectorStorePinecome" />
-      <item itemvalue="Python.demo" />
-      <item itemvalue="Python.sql_dataset_generate" />
-      <item itemvalue="Python.intent_recog_taskplan" />
-      <item itemvalue="Python.sql_dataset_generate (1)" />
-      <item itemvalue="Python.intent_recog_taskplan_sqldata_generate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.intent_recog_taskplan_sqldata_generate" />
+        <item itemvalue="Python.intent_recognise" />
+        <item itemvalue="Python.question_split" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.sql_dataset_generate (1)" />
-        <item itemvalue="Python.intent_recog_taskplan" />
-        <item itemvalue="Python.sql_dataset_generate" />
-        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -513,55 +535,57 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1124" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1722914746409" />
-    <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1723167545035">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="658" y="268" key="FileChooserDialogImpl" timestamp="1723512320775">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1723167545035" />
+    <state x="658" y="268" key="FileChooserDialogImpl/0.0.1707.1019@0.0.1707.1019" timestamp="1723512320775" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1718928755274" />
-    <state width="1515" height="333" key="GridCell.Tab.0.bottom" timestamp="1723248323237">
+    <state width="1515" height="370" key="GridCell.Tab.0.bottom" timestamp="1723443450044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="333" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1723248323237" />
+    <state width="1515" height="370" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
     <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="333" key="GridCell.Tab.0.center" timestamp="1723248323236">
+    <state width="1515" height="370" key="GridCell.Tab.0.center" timestamp="1723443450044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="333" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1723248323236" />
+    <state width="1515" height="370" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
     <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="333" key="GridCell.Tab.0.left" timestamp="1723248323236">
+    <state width="1515" height="370" key="GridCell.Tab.0.left" timestamp="1723443450044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="333" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1723248323236" />
+    <state width="1515" height="370" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
     <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="333" key="GridCell.Tab.0.right" timestamp="1723248323236">
+    <state width="1515" height="370" key="GridCell.Tab.0.right" timestamp="1723443450044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="333" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1723248323236" />
+    <state width="1515" height="370" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
     <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="333" key="GridCell.Tab.1.bottom" timestamp="1723248323237">
+    <state width="1515" height="152" key="GridCell.Tab.1.bottom" timestamp="1723434610470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="333" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1723248323237" />
+    <state width="1515" height="152" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1723434610470" />
     <state width="1899" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="333" key="GridCell.Tab.1.center" timestamp="1723248323237">
+    <state width="1515" height="152" key="GridCell.Tab.1.center" timestamp="1723434610470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="333" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1723248323237" />
+    <state width="1515" height="152" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1723434610470" />
     <state width="1899" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="333" key="GridCell.Tab.1.left" timestamp="1723248323237">
+    <state width="1515" height="152" key="GridCell.Tab.1.left" timestamp="1723434610469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="333" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1723248323237" />
+    <state width="1515" height="152" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1723434610469" />
     <state width="1899" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="333" key="GridCell.Tab.1.right" timestamp="1723248323237">
+    <state width="1515" height="152" key="GridCell.Tab.1.right" timestamp="1723434610470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="333" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1723248323237" />
+    <state width="1515" height="152" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1723434610470" />
     <state width="1899" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state x="393" y="89" width="976" height="707" key="SettingsEditor" timestamp="1723081081301">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="375" y="76" width="976" height="707" key="SettingsEditor" timestamp="1723512353074">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state x="393" y="89" width="976" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1723081081301" />
+    <state x="375" y="76" key="SettingsEditor/0.0.1707.1019@0.0.1707.1019" timestamp="1723512353074" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1718504436719" />
     <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1718448048041">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -761,16 +785,16 @@
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan.py</url>
+          <url>file://$PROJECT_DIR$/module_intent_recognise/main.py</url>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan.py</url>
+          <url>file://$PROJECT_DIR$/module_intent_recognise/main.py</url>
           <line>19</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan.py</url>
+          <url>file://$PROJECT_DIR$/module_intent_recognise/main.py</url>
           <line>20</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
@@ -929,9 +953,14 @@
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_intent_recognise/intent_recog_taskplan_sqldata_generate.py</url>
+          <url>file://$PROJECT_DIR$/module_intent_recognise/question_split.py</url>
           <line>7</line>
           <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_intent_recognise/intent_recognise.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
