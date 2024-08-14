@@ -38,11 +38,29 @@ def sql_dataset_generate(sql_seed_pair_path, query):
 
 if __name__ == '__main__':
     # sql_dataset_generate 示例用法
-    sql_seed_pair_path = "../data/sql_generate_result.xlsx"
-    query01 = '帮我查一下鹏扬景科混合A基金在20201126的资产净值和单位净值是多少?'
-    query02 = '嘉实中债1-3年政策性金融债指数C基金在20211231的季报里，前三大持仓占比的债券名称是什么?'
-    query03 = '在20210630的年报(含半年报)中，永赢泽利一年定期开放债券基金的债券持仓，其持有最大仓位的债券类型是什么?'
+    # sql_seed_pair_path = "../data/sql_generate_result.xlsx"
+    # query01 = '帮我查一下鹏扬景科混合A基金在20201126的资产净值和单位净值是多少?'
+    # query02 = '嘉实中债1-3年政策性金融债指数C基金在20211231的季报里，前三大持仓占比的债券名称是什么?'
+    # query03 = '在20210630的年报(含半年报)中，永赢泽利一年定期开放债券基金的债券持仓，其持有最大仓位的债券类型是什么?'
+    #
+    # result = sql_dataset_generate(sql_seed_pair_path,query01)
+    # print(result)
 
-    result = sql_dataset_generate(sql_seed_pair_path,query01)
-    print(result)
+    # 批量生成
+    sql_seed_pair_path = "../data/sql_generate_result.xlsx"
+    df = pd.read_excel(r'../data/intent_recongnise_result.xlsx',sheet_name='未匹配到公司')
+    df['sql'] = ''
+    print(df)
+    for i in range(len(df)):
+        print(f'----------------------第{i}行-------------------------')
+        try:
+            query = df.loc[i]['question']
+            result = sql_dataset_generate(sql_seed_pair_path, query)
+            df.at[i,'sql'] = result['sql']
+        except Exception as e:
+            print(f'error: {e}')
+    df.to_excel(f'../data/sql_lora_result.xlsx', index=False, engine='openpyxl')
+
+
+
 

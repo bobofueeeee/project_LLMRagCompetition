@@ -23,10 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/test_enumerate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/0天池智能问答学习赛整体架构 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/0天池智能问答学习赛整体架构 (1).pos" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/0天池智能问答学习赛整体架构 (1).pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/1命名实体识别模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/1命名实体识别模块.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/1命名实体识别模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/1命名实体识别模块.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/2知识检索模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/2知识检索模块.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/2知识检索模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/2知识检索模块.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/3知识库建设模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/3知识库建设模块.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/3知识库建设模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/3知识库建设模块.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/4数据查询模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/4数据查询模块.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_design/4数据查询模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/AA_arch_design/4数据查询模块.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/intent_recongnise_result_369.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/intent_recongnise_result_373.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_data_query/sql_dataset_generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_data_query/sql_dataset_generate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_intent_recognise/intent_recognise.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_intent_recognise/intent_recognise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/read_json_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/read_json_str.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_intent_recognise/question_split.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +82,7 @@
       <recent name="D:\wk\deepLearning_LLMRagCompetition" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.intent_recognise">
+  <component name="RunManager" selected="Python.sql_dataset_generate (1)">
     <configuration name="intent_recognise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="deepLearning_LLMRagCompetition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -470,11 +482,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sql_dataset_generate (1)" />
         <item itemvalue="Python.intent_recognise" />
         <item itemvalue="Python.read_json_str" />
         <item itemvalue="Python.question_split" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.sql_dataset_generate (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -538,49 +550,53 @@
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1723167545035" />
     <state x="658" y="268" key="FileChooserDialogImpl/0.0.1707.1019@0.0.1707.1019" timestamp="1723533019629" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1718928755274" />
-    <state width="1685" height="235" key="GridCell.Tab.0.bottom" timestamp="1723531769131">
+    <state width="1685" height="379" key="GridCell.Tab.0.bottom" timestamp="1723598655607">
       <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="370" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
-    <state width="1685" height="235" key="GridCell.Tab.0.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1723531769131" />
+    <state width="1685" height="379" key="GridCell.Tab.0.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1723598655607" />
     <state width="1899" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1685" height="235" key="GridCell.Tab.0.center" timestamp="1723531769131">
+    <state width="1685" height="379" key="GridCell.Tab.0.center" timestamp="1723598655607">
       <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="370" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
-    <state width="1685" height="235" key="GridCell.Tab.0.center/0.0.1707.1019@0.0.1707.1019" timestamp="1723531769131" />
+    <state width="1685" height="379" key="GridCell.Tab.0.center/0.0.1707.1019@0.0.1707.1019" timestamp="1723598655607" />
     <state width="1899" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1685" height="235" key="GridCell.Tab.0.left" timestamp="1723531769131">
+    <state width="1685" height="379" key="GridCell.Tab.0.left" timestamp="1723598655607">
       <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="370" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
-    <state width="1685" height="235" key="GridCell.Tab.0.left/0.0.1707.1019@0.0.1707.1019" timestamp="1723531769131" />
+    <state width="1685" height="379" key="GridCell.Tab.0.left/0.0.1707.1019@0.0.1707.1019" timestamp="1723598655607" />
     <state width="1899" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1685" height="235" key="GridCell.Tab.0.right" timestamp="1723531769131">
+    <state width="1685" height="379" key="GridCell.Tab.0.right" timestamp="1723598655607">
       <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="370" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1723443450044" />
-    <state width="1685" height="235" key="GridCell.Tab.0.right/0.0.1707.1019@0.0.1707.1019" timestamp="1723531769131" />
+    <state width="1685" height="379" key="GridCell.Tab.0.right/0.0.1707.1019@0.0.1707.1019" timestamp="1723598655607" />
     <state width="1899" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="152" key="GridCell.Tab.1.bottom" timestamp="1723434610470">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1685" height="379" key="GridCell.Tab.1.bottom" timestamp="1723598655607">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="152" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1723434610470" />
+    <state width="1685" height="379" key="GridCell.Tab.1.bottom/0.0.1707.1019@0.0.1707.1019" timestamp="1723598655607" />
     <state width="1899" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="152" key="GridCell.Tab.1.center" timestamp="1723434610470">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1685" height="379" key="GridCell.Tab.1.center" timestamp="1723598655607">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="152" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1723434610470" />
+    <state width="1685" height="379" key="GridCell.Tab.1.center/0.0.1707.1019@0.0.1707.1019" timestamp="1723598655607" />
     <state width="1899" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="152" key="GridCell.Tab.1.left" timestamp="1723434610469">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1685" height="379" key="GridCell.Tab.1.left" timestamp="1723598655607">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="152" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1723434610469" />
+    <state width="1685" height="379" key="GridCell.Tab.1.left/0.0.1707.1019@0.0.1707.1019" timestamp="1723598655607" />
     <state width="1899" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
-    <state width="1515" height="152" key="GridCell.Tab.1.right" timestamp="1723434610470">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1685" height="379" key="GridCell.Tab.1.right" timestamp="1723598655607">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state width="1515" height="152" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1723434610470" />
+    <state width="1685" height="379" key="GridCell.Tab.1.right/0.0.1707.1019@0.0.1707.1019" timestamp="1723598655607" />
     <state width="1899" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718731868193" />
     <state x="375" y="76" width="976" height="707" key="SettingsEditor" timestamp="1723512353074">
       <screen x="0" y="0" width="1707" height="1019" />
@@ -588,9 +604,10 @@
     <state x="393" y="89" width="976" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1723081081301" />
     <state x="375" y="76" key="SettingsEditor/0.0.1707.1019@0.0.1707.1019" timestamp="1723512353074" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1718504436719" />
-    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1718448048041">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="589" y="215" width="573" height="804" key="find.popup" timestamp="1723540546321">
+      <screen x="0" y="0" width="1707" height="1019" />
     </state>
+    <state x="589" y="215" width="573" height="804" key="find.popup/0.0.1707.1019@0.0.1707.1019" timestamp="1723540546321" />
     <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1718448048041" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1723080652328">
       <screen x="0" y="0" width="1536" height="824" />
@@ -810,51 +827,51 @@
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/pdf_loader_test.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/pdf_loader_test.py</url>
           <line>3</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/pdf_loader_test.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/pdf_loader_test.py</url>
           <line>4</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/pdf_loader_test02.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/pdf_loader_test02.py</url>
           <line>57</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/pdf_loader_test02.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/pdf_loader_test02.py</url>
           <line>58</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/pdf_loader_test02.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/pdf_loader_test02.py</url>
           <line>14</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/pdf_loader_test02.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/pdf_loader_test02.py</url>
           <line>46</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/embedding_test.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/embedding_test.py</url>
           <line>4</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/embedding_test.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/embedding_test.py</url>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/embedding_test.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/embedding_test.py</url>
           <line>1</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/embedding_test.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/embedding_test.py</url>
           <line>2</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
@@ -884,37 +901,37 @@
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/embedding_save2milvus_test02.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/embedding_save2milvus_test02.py</url>
           <line>2</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/embedding_save2milvus_test02.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/embedding_save2milvus_test02.py</url>
           <line>6</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/embedding_save2milvus_test02.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/embedding_save2milvus_test02.py</url>
           <line>35</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/embedding_save2milvus_test02.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/embedding_save2milvus_test02.py</url>
           <line>7</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_sqllite.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/test_sqllite.py</url>
           <line>2</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_sqllite.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/test_sqllite.py</url>
           <line>3</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_sqllite.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/test_sqllite.py</url>
           <line>4</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
@@ -944,7 +961,7 @@
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_read_jsonfile.py</url>
+          <url>file://$PROJECT_DIR$/../personal-programming-language-python/常用模块demo01/test_read_jsonfile.py</url>
           <line>11</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
@@ -954,14 +971,34 @@
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_intent_recognise/question_split.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="120" />
+          <url>file://$PROJECT_DIR$/module_intent_recognise/intent_recognise.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/module_intent_recognise/intent_recognise.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_data_query/sql_dataset_generate.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_data_query/sql_dataset_generate.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_data_query/sql_dataset_generate.py</url>
           <line>53</line>
-          <option name="timeStamp" value="121" />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_data_query/sql_dataset_generate.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="126" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
