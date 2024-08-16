@@ -46,7 +46,7 @@ if __name__ == '__main__':
     # result = sql_dataset_generate(sql_seed_pair_path,query01)
     # print(result)
 
-    # 批量生成
+    # 批量读取问题，生成对应的sql
     sql_seed_pair_path = "../data/sql_generate_result.xlsx"
     df = pd.read_excel(r'../data/intent_recongnise_result.xlsx',sheet_name='未匹配到公司')
     df['sql'] = ''
