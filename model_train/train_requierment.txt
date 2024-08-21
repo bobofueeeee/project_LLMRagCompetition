@@ -1,0 +1,7 @@
+pip install
+transformers==4.44.0
+datasets==2.21.0
+# peft==0.12.1.dev0  # # git+https://github.com/huggingface/peft.git
+accelerate==0.33.0
+modelscope==1.17.1
+swanlab==0.3.17

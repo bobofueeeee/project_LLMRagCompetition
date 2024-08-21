@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="20240814 09:39">
+      <change afterPath="$PROJECT_DIR$/model_train/Qwen2-0.5B-train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_train/train_requierment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requeirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requeirment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/大模型训练⭐⭐.md" beforeDir="false" afterPath="$PROJECT_DIR$/大模型训练⭐⭐.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,22 +51,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../model_train/alpaca-lora" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../modelTrain-LLMcompetition" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wk\deepLearning_LLMRagCompetition\module_intent_recognise" />
-      <recent name="D:\wk\deepLearning_LLMRagCompetition\data" />
-      <recent name="D:\wk\deepLearning_LLMRagCompetition\test" />
-      <recent name="D:\wk\deepLearning_LLMRagCompetition" />
-      <recent name="D:\wk\deepLearning_LLMRagCompetition\arch_design" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wk\deepLearning_LLMRagCompetition\test" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition\module_intent_recognise" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition\doc" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition\untils" />
+      <recent name="D:\wk\deepLearning_LLMRagCompetition" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wk\A我的项目\deepLearning_LLMRagCompetition\model_train" />
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\module_intent_recognise" />
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\data" />
+      <recent name="D:\wk\deepLearning_LLMRagCompetition\test" />
       <recent name="D:\wk\deepLearning_LLMRagCompetition" />
     </key>
   </component>
@@ -449,12 +450,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.bert_train" />
-      <item itemvalue="Python.intent_recognise" />
-      <item itemvalue="Python.lora_train" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.read_json_str" />
-      <item itemvalue="Python.sql_dataset_generate (1)" />
       <item itemvalue="Python.test_dockerImageFind" />
       <item itemvalue="Python.test_embedding02" />
       <item itemvalue="Python.test_pandas" />
@@ -467,6 +462,12 @@
       <item itemvalue="Python.test_vecstore" />
       <item itemvalue="Python.test_vectorStorePinecome01" />
       <item itemvalue="Python.test_vectorStorePinecome" />
+      <item itemvalue="Python.bert_train" />
+      <item itemvalue="Python.intent_recognise" />
+      <item itemvalue="Python.lora_train" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.read_json_str" />
+      <item itemvalue="Python.sql_dataset_generate (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -545,11 +546,11 @@
     </state>
     <state width="1124" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1722914746409" />
     <state width="1250" height="577" key="DebuggerActiveHint/0.0.1707.1019@0.0.1707.1019" timestamp="1723702917242" />
-    <state x="531" y="185" width="635" height="686" key="FileChooserDialogImpl" timestamp="1723791877987">
+    <state x="729" y="184" width="635" height="686" key="FileChooserDialogImpl" timestamp="1724200659465">
       <screen x="0" y="0" width="1707" height="1019" />
     </state>
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1723167545035" />
-    <state x="531" y="185" width="635" height="686" key="FileChooserDialogImpl/0.0.1707.1019@0.0.1707.1019" timestamp="1723791877987" />
+    <state x="729" y="184" width="635" height="686" key="FileChooserDialogImpl/0.0.1707.1019@0.0.1707.1019" timestamp="1724200659465" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1718928755274" />
     <state width="1685" height="205" key="GridCell.Tab.0.bottom" timestamp="1723717740587">
       <screen x="0" y="0" width="1707" height="1019" />
