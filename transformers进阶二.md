@@ -83,7 +83,7 @@ The acting is bad.
 
 ```python
 python 代码解读复制代码# 指定数据集路径，需要根据实际情况设置正确的目录，里面包括上述提到的 texts.txt 和 labels.txt
-data_dir = "/your/path/of/data"
+data_dir = "/your/path/of/AA_data"
 
 # 加载预训练的BERT模型和tokenizer
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
