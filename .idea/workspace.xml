@@ -23,40 +23,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="20240814 09:39">
-      <change afterPath="$PROJECT_DIR$/AA_common/model_client/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AA_common/model_train/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/2389de12d78fe1ca4fa24910e6b1573902098bc3.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/2389de12d78fe1ca4fa24910e6b1573902098bc3.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/3e0ded8afa8f8aa952fd8179b109d6e67578c2dd.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/3e0ded8afa8f8aa952fd8179b109d6e67578c2dd.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/edde146c2435590bc33de0f144c04a7d7bf4d5b5.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/edde146c2435590bc33de0f144c04a7d7bf4d5b5.PDF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/intent_recongnise_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/intent_recongnise_result.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/intent_recongnise_result_373.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/intent_recongnise_result_373.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/intent_recongnise_result_403.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/intent_recongnise_result_403.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/question.json" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/question.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sql_dataset100.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/sql_dataset100.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sql_generate_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/sql_generate_result.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sql_lora_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/sql_lora_result.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sql_seed_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/sql_seed_result.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sql_种子.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AA_data/sql_种子.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_client/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_client/api_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_common/model_client/api_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_train/Qwen2-0.5B-train.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_common/model_train/Qwen2-0.5B-train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_train/bert_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_common/model_train/bert_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_train/lora_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_common/model_train/lora_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_train/sft_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/AA_common/model_train/sft_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_train/train_requierment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AA_common/model_train/train_requierment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_data_query/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/BD_module_data_query/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_data_query/sql_dataset_generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/BD_module_data_query/sql_dataset_generate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_data_query/sql_generate_excute_evalute.py" beforeDir="false" afterPath="$PROJECT_DIR$/BD_module_data_query/sql_generate_excute_evalute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_data_query/sql_seed_excute.py" beforeDir="false" afterPath="$PROJECT_DIR$/BD_module_data_query/sql_seed_excute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_database_build/data_base_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/BC_module_database_build/data_base_build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_intent_recognise/intent_recognise.py" beforeDir="false" afterPath="$PROJECT_DIR$/BA_module_intent_recognise/intent_recognise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_intent_recognise/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/BA_module_intent_recognise/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/loadfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/loadfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/rag_bak/A_testRAG/test_textLoader01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/0天池智能问答学习赛整体架构 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/0天池智能问答学习赛整体架构 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/0天池智能问答学习赛整体架构 (1).pos" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/0天池智能问答学习赛整体架构 (1).pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/1命名实体识别模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/1命名实体识别模块.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/1命名实体识别模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/1命名实体识别模块.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/2知识检索模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/2知识检索模块.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/2知识检索模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/2知识检索模块.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/3知识库建设模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/3知识库建设模块.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/3知识库建设模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/3知识库建设模块.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/4数据查询模块.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/4数据查询模块.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_arch_design/4数据查询模块.pos" beforeDir="false" afterPath="$PROJECT_DIR$/A_arch_design/4数据查询模块.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_configs/model_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/F_configs/model_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/2389de12d78fe1ca4fa24910e6b1573902098bc3.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/2389de12d78fe1ca4fa24910e6b1573902098bc3.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/3e0ded8afa8f8aa952fd8179b109d6e67578c2dd.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/3e0ded8afa8f8aa952fd8179b109d6e67578c2dd.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/edde146c2435590bc33de0f144c04a7d7bf4d5b5.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/edde146c2435590bc33de0f144c04a7d7bf4d5b5.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/intent_recongnise_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/intent_recongnise_result.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/intent_recongnise_result_373.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/intent_recongnise_result_373.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/intent_recongnise_result_403.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/intent_recongnise_result_403.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/question.json" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/question.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/sql_dataset100.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/sql_dataset100.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/sql_generate_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/sql_generate_result.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/sql_lora_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/sql_lora_result.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/sql_seed_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/sql_seed_result.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA_data/sql_种子.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/G_data/sql_种子.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BA_module_intent_recognise/intent_recognise.py" beforeDir="false" afterPath="$PROJECT_DIR$/B_module_intent_recognise/intent_recognise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BA_module_intent_recognise/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/B_module_intent_recognise/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC_module_database_build/data_base_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/C_module_database_build/data_base_build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD_module_data_query/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/D_module_data_query/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD_module_data_query/sql_dataset_generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD_module_data_query/sql_generate_excute_evalute.py" beforeDir="false" afterPath="$PROJECT_DIR$/D_module_data_query/sql_generate_excute_evalute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD_module_data_query/sql_seed_excute.py" beforeDir="false" afterPath="$PROJECT_DIR$/D_module_data_query/sql_seed_excute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE_prompt/intent_recognise_prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/E_prompt/intent_recognise_prompt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE_prompt/sql_generate_prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/E_prompt/sql_generate_prompt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/model_client/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/model_client/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/model_client/api_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/model_client/api_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/model_train/Qwen2-0.5B-train.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/model_train/Qwen2-0.5B-train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/model_train/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/model_train/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/model_train/bert_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/model_train/bert_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/model_train/lora_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/model_train/lora_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/model_train/sft_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/model_train/sft_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/model_train/train_requierment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/model_train/train_requierment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/.pytest_cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/.pytest_cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/.pytest_cache/CACHEDIR.TAG" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/.pytest_cache/CACHEDIR.TAG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/.pytest_cache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/.pytest_cache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/loader/RSS_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/loader/RSS_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/loader/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/loader/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/loader/dialogue.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/loader/dialogue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/loader/image_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/loader/image_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/loader/loadfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/loader/loadfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/loader/pdf_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/ali_text_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/ali_text_splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/chinese_text_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/chinese_text_splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/zh_title_enhance.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AA_textLoader/textsplitter/zh_title_enhance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/AB_text2vec/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/AB_text2vec/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_dockerImageFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_dockerImageFind.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_embedding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_embedding02.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_embedding02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_promptAndQA.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_promptAndQA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_textLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_textLoader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_textLoader01.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_textLoader01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_vecstore.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_vecstore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_vecstoreQuery.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_vecstoreQuery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_vectorStorePinecome.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_vectorStorePinecome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/A_testRAG/test_vectorStorePinecome01.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/A_testRAG/test_vectorStorePinecome01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/B_dataBaseQuery/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/B_dataBaseQuery/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/chroma_data/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/chroma_data/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/rag_bak/requeirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/rag_bak/requeirment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/test/test_torch.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/test/test_torch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/untils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/untils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/untils/json_toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/untils/json_toolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/untils/openai_azure_toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/untils/openai_azure_toolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/untils/pdf_toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/untils/pdf_toolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/untils/sqlite_toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/untils/sqlite_toolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/untils/textsplitter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/untils/textsplitter/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/untils/textsplitter/ali_text_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/untils/textsplitter/ali_text_splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/untils/textsplitter/chinese_text_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/untils/textsplitter/chinese_text_splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA_common/untils/textsplitter/zh_title_enhance.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/untils/textsplitter/zh_title_enhance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transformers进阶二.md" beforeDir="false" afterPath="$PROJECT_DIR$/transformers进阶二.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untils/json_toolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/untils/json_toolkit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -839,16 +889,16 @@
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BA_module_intent_recognise/main.py</url>
+          <url>file://$PROJECT_DIR$/B_module_intent_recognise/main.py</url>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BA_module_intent_recognise/main.py</url>
+          <url>file://$PROJECT_DIR$/B_module_intent_recognise/main.py</url>
           <line>19</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BA_module_intent_recognise/main.py</url>
+          <url>file://$PROJECT_DIR$/B_module_intent_recognise/main.py</url>
           <line>20</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
@@ -912,12 +962,12 @@
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BC_module_database_build/data_base_build.py</url>
+          <url>file://$PROJECT_DIR$/C_module_database_build/data_base_build.py</url>
           <line>5</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BC_module_database_build/data_base_build.py</url>
+          <url>file://$PROJECT_DIR$/C_module_database_build/data_base_build.py</url>
           <line>6</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
@@ -972,22 +1022,22 @@
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/sql_seed_excute.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/sql_seed_excute.py</url>
           <line>5</line>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/sql_seed_excute.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/sql_seed_excute.py</url>
           <line>11</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/sql_generate_excute_evalute.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/sql_generate_excute_evalute.py</url>
           <line>17</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/main.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/main.py</url>
           <line>11</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
@@ -997,37 +1047,37 @@
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
           <line>40</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BA_module_intent_recognise/intent_recognise.py</url>
+          <url>file://$PROJECT_DIR$/B_module_intent_recognise/intent_recognise.py</url>
           <line>50</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BA_module_intent_recognise/intent_recognise.py</url>
+          <url>file://$PROJECT_DIR$/B_module_intent_recognise/intent_recognise.py</url>
           <line>52</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
           <line>52</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
           <line>50</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
           <line>53</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
           <line>49</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
@@ -1062,7 +1112,7 @@
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BD_module_data_query/main.py</url>
+          <url>file://$PROJECT_DIR$/D_module_data_query/main.py</url>
           <line>43</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
