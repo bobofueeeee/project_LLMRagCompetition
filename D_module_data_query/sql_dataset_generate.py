@@ -3,7 +3,7 @@ from E_prompt.sql_generate_prompt import base_prompt
 import json
 import pandas as pd
 import random
-from H_common.untils import extract_jsonstr
+from H_common.untils.json_toolkit import extract_jsonstr
 
 
 def sql_dataset_generate(sql_seed_pair_path, query):

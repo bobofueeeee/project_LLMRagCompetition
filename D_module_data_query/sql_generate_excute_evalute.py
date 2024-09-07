@@ -2,7 +2,7 @@ import pandas as pd
 from E_prompt.sql_generate_prompt import base_prompt
 from H_common.model_client.api_request import local_llm_api_request
 from H_common.untils.sqlite_toolkit import sqliteToolkit
-from H_common.untils import extract_jsonstr
+from H_common.untils.json_toolkit import extract_jsonstr
 
 def sql_excute_evalue(sql_base_path,db_source_path,sql_evalue_path):
 
