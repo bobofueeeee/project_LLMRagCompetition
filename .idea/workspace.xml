@@ -23,23 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88aea57f-9a8e-4052-b065-135a9a6e930f" name="Default Changelist" comment="20240814 09:39">
-      <change afterPath="$PROJECT_DIR$/H_common/untils/embedding_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H_common/untils/files_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H_common/untils/milvus_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H_common/untils/pdf_toolkit_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03知识库-pdf解析⭐.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03知识库-向量转换.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03知识库-文本切块.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-数据查询-sqllite安装.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_arch_design/3知识库建设模块.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_arch_design/3知识库建设模块.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/B_module_intent_recognise/intent_recognise.py" beforeDir="false" afterPath="$PROJECT_DIR$/B_module_intent_recognise/intent_recognise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B_module_intent_recognise/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/B_module_intent_recognise/central_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D_module_data_query/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/D_module_data_query/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D_module_data_query/sql_generate_excute_evalute.py" beforeDir="false" afterPath="$PROJECT_DIR$/D_module_data_query/B_sql_generate_excute_evalute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D_module_data_query/sql_seed_excute.py" beforeDir="false" afterPath="$PROJECT_DIR$/D_module_data_query/A_sql_seed_excute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H_common/model_client/api_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/H_common/model_client/api_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04数据查询模块-A模型评测.md" beforeDir="false" afterPath="$PROJECT_DIR$/04数据查询模块-A模型评测.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04数据查询模块-B模型训练.md" beforeDir="false" afterPath="$PROJECT_DIR$/04数据查询模块-B模型训练.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D_module_data_query/A_sql_seed_excute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/D_module_data_query/B_sql_generate_excute_evalute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/D_module_data_query/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -917,22 +906,22 @@
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/A_sql_seed_excute.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/A_sql_seed_excute.py</url>
           <line>5</line>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/A_sql_seed_excute.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/A_sql_seed_excute.py</url>
           <line>11</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/B_sql_generate_excute_evalute.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/B_sql_generate_excute_evalute.py</url>
           <line>17</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/main.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/main.py</url>
           <line>11</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
@@ -952,22 +941,22 @@
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/sql_dataset_generate.py</url>
           <line>52</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/sql_dataset_generate.py</url>
           <line>50</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/sql_dataset_generate.py</url>
           <line>53</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/sql_dataset_generate.py</url>
           <line>49</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
@@ -1002,17 +991,17 @@
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/main.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/main.py</url>
           <line>43</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/sql_dataset_generate.py</url>
           <line>47</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D_module_data_query/sql_dataset_generate.py</url>
+          <url>file://$PROJECT_DIR$/../modelTraining_LLMcompetition/D_module_data_query/sql_dataset_generate.py</url>
           <line>48</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
