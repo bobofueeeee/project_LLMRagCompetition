@@ -1,7 +1,7 @@
 from H_common.model_client import api_request
 import json
 from E_prompt.intent_recognise_prompt import intent_recog_prompt
-from H_common.untils import extract_jsonstr
+from H_common.untils.json_toolkit import extract_jsonstr
 import pandas as pd
 
 
@@ -15,6 +15,7 @@ def intent_recongnise(question,url,model_name,system_prompt):
     result_dict = extract_jsonstr(response_result)
     print(result_dict)
     return result_dict
+
 
 
 def question_split():
@@ -49,13 +50,13 @@ def question_split():
 
 
 if __name__ == '__main__':
-    # question_split 示例用法
-    question_split()
+    # question_split 示例用法，将questions中匹配到公司，没有匹配到公司的区分出来
+    # question_split()
 
     # intent_recongnise 示例用法
-    # question = '平安金管家货币C基金在20210630的季报里，前三大持仓占比的债券名称是什么?'
-    # url = 'http://1.95.86.245:51000/v1/chat/completions'
-    # model_name = "/home/ruantong/mode/Qwen2-72B-Instruct"
-    # system_prompt = intent_recog_prompt
-    # result = recongnise_result = intent_recongnise(question, url, model_name, system_prompt)
-    # print(result)
+    question = '平安金管家货币C基金在20210630的季报里，前三大持仓占比的债券名称是什么?'
+    url = 'http://1.95.86.245:51000/v1/chat/completions'
+    model_name = "/home/ruantong/mode/Qwen2-72B-Instruct"
+    system_prompt = intent_recog_prompt
+    result = recongnise_result = intent_recongnise(question, url, model_name, system_prompt)
+    print(result)

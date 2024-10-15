@@ -1,4 +1,4 @@
-from D_module_data_query.sql_generate_excute_evalute import sql_excute_evalue
+from D_module_data_query.B_sql_generate_excute_evalute import sql_excute_evalue
 from H_common.model_client.api_request import openai_api_request
 from E_prompt.sql_generate_prompt import base_prompt
 import json

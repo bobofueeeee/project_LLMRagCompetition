@@ -5,7 +5,7 @@
 
 import requests
 import json
-from H_common.untils import OpenAiAzureToolkit
+from H_common.untils.openai_azure_toolkit import OpenAiAzureToolkit
 
 
 def local_llm_api_request(url,model_name,system_prompt,user_prompt):
