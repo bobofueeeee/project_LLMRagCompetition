@@ -1,4 +1,4 @@
-from H_common.model_client import api_request
+from H_common.untils import model_infer_toolkit
 import json
 from E_prompt.intent_recognise_prompt import intent_recog_prompt
 from H_common.untils.json_toolkit import extract_jsonstr
@@ -8,7 +8,7 @@ import pandas as pd
 def intent_recongnise(question,url,model_name,system_prompt):
     # 1. 意图识别
     user_prompt = question
-    result = api_request.local_llm_api_request(url, model_name, system_prompt, user_prompt)
+    result = model_infer_toolkit.local_llm_api_request(url, model_name, system_prompt, user_prompt)
     response_result = result['response_result']
     # print(result)
     print(response_result)
