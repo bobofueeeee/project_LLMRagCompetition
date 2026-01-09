@@ -1,9 +1,8 @@
-# 基于LLM智能问答系统学习赛
+# 基于LLM智能问答系统
 
 ## 1. 介绍
-基于LLM智能问答系统学习赛
+基于LLM智能问答系统
 
-项目地址：https://tianchi.aliyun.com/competition/entrance/532172/information
 
 ## 2. 任务介绍
 
